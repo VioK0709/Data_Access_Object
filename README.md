@@ -5,4 +5,4 @@
 
 2. Метод-обработчик getProductName() с маппингом на endpoint /products/fetch-product класса [контроллера](https://github.com/VioK0709/Data_Access_Object/blob/main/src/main/java/com/example/data_access_object/controller/ControllerApp.java) умеет обрабатывать запрос вида: localhost:8080/products/fetch-product?name=Mikey.
 
-3. Контроллер возвращает название продукта, которое он получит от [репозитория](https://github.com/VioK0709/Data_Access_Object/blob/main/src/main/java/com/example/data_access_object/repository/RepositoryApp.java).
+3. Контроллер возвращает название продукта, которое он получил от [репозитория](https://github.com/VioK0709/Data_Access_Object/blob/main/src/main/java/com/example/data_access_object/repository/RepositoryApp.java).
