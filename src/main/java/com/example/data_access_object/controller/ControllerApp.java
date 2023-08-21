@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class ControllerApp {
 
-    ServiceApp service;
+    private final ServiceApp serviceApp;
 
     @GetMapping("/products/fetch-product")
     @ResponseBody
     public List<String> getProductName(@RequestParam("name") String name) {
-        return service.getProducts(name);
+        return serviceApp.getProducts(name);
     }
 }

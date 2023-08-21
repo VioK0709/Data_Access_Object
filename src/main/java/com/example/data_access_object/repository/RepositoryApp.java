@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 public class RepositoryApp {
 
     private final NamedParameterJdbcTemplate template;
-    String scriptFileName = read("select_product_name.sql");
+    private final String scriptFileName = read("select_product_name.sql");
 
     public RepositoryApp(NamedParameterJdbcTemplate template) {
         this.template = template;

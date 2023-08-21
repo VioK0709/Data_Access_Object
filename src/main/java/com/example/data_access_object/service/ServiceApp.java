@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class ServiceApp {
 
-    RepositoryApp repositoryApp;
+    private final RepositoryApp repositoryApp;
 
     public List<String> getProducts(String name) {
         return repositoryApp.getProductName(name);
